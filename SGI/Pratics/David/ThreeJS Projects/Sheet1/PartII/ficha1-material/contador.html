@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Modifique o ficheiro contador.html para que o número mostrado avance uma unidade em cada frame.
+O botão “Iniciar” inicia a animação, e o botão “Parar”, para-a.
+Sugestões: Utilize uma variável global para armazenar o valor do contador. Para mostrar o contador na
+página, utilize a propriedade innerHTML do elemento <span>. Utilize uma variável global auxiliar para
+parar a animação-->
+<head>
+    <title>Contador de frames</title>
+    <style>
+
+    #contentor {
+        padding: 20px;
+        background-color: gray;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="contentor">
+        <h1>Contador: <span id="alvo">---</span></h1>
+    </div>
+    <button id="btn_iniciar">Iniciar</button>
+    <button id="btn_parar">Parar</button>
+    <button id="btn_resetar">Reset</button>
+</body>
+<script>
+    const alvo = document.getElementById('alvo');
+
+    let counter = 0;
+    let animation = null;
+
+    function contarFrame() {
+        counter++;
+        alvo.innerHTML = counter;
+        animation = requestAnimationFrame(contarFrame);
+    }
+
+    function init() {
+        if (animation === null) {
+            animation = requestAnimationFrame(contarFrame);
+        }
+    }
+
+    function stop() {
+        cancelAnimationFrame(animation);
+        animation = null;
+    }
+
+    function reset() {
+        stop();
+        counter = 0;
+        alvo.innerHTML = counter;
+    }
+
+    document.getElementById('btn_iniciar').onclick = init;
+    document.getElementById('btn_parar').onclick = stop;
+    document.getElementById('btn_resetar').onclick = reset;
+</script>
+</html>
+
