@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc99390a-078b-4ee7-88ef-01c64bb83456" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/Comparacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ComparacaoInteiros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ComparacaoLongs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/PontosMaisProximos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaxima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemN2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemNLog2N.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainPraticaPontosMaisProximos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/Colecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/ColecaoIteravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/IteradorIteravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/IteradorIteravelDuplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/ColecaoIteravelAssociativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/estruturas/Associacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/estruturas/TabelaHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainPraticaGestorContactos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainPraticaGestorContactosEstendido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHash.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashOrdenada.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ColecaoIteravelLinear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/naoordenadas/ColecaoIteravelLinearNaoOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaNaoOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/naoordenadas/utilizacao/MainPraticaListaNaoOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/ColecaoIteravelLinearOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ArvoreBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaOrdenadaOrdemDistinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainPraticaGestorContactos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaArvoreBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaArvoreBinaria.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaNaoOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaNaoOrdenada.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaOrdenada.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/ColecaoNaoIteravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/estruturas/Fila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/estruturas/Pilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaFila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaFila.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaPilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaPilha.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/Contacto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/GestorContactos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/baseGestorContactos.ds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/comparadores/ComparacaoContactosPorNumeroTelefoneDes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/comparadores/ComparacaoContactosPorUltimoNomeAscSegPorDataNascimentoDes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/pessoas/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/pessoas/comparadores/ComparacaoPessoasPorBIAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/pessoas/comparadores/ComparacaoPessoasPorNomeAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/AlgoritmoOrdenacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainPraticaInsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainPraticaOrdenacaoContactos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainPraticaOrdenacaoContactos.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaBubbleSort.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaQuickSort.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaSelectionSort.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/AlgoritmoPesquisa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaNaoOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaTernariaIterativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaTernariaRecursiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainPraticaPesquisaTernaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaBinaria.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaOrdenada.jgrasp_canvas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/Fatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/JogoTorresHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/NumerosQuadradosPitagoras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaFatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaJogoTorresHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaNumerosQuadradosPitagoras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/IOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/Par.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/Vetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/VetorDeInteiros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/VetorDePoint2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/VetorDeStrings.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>value</find>
+      <find>GestorContactos.INSTANCIA</find>
+      <find>inser</find>
+      <find>GestorContactos</find>
+      <find>consulta</find>
+      <find>is</find>
+      <find>ITERADOR_DUPLO_COLECAO_VAZIA_CONTACTOS</find>
+      <find>NoSuch</find>
+      <find>removerRecursivo</find>
+      <find>iterativo</find>
+      <find>equals</find>
+      <find>consul</find>
+      <find>return null</find>
+      <find>min</find>
+      <find>put</find>
+      <find>entry</find>
+      <find>inserir</find>
+      <find>con</find>
+      <find>consult</find>
+      <find>remover</find>
+      <find>removert</find>
+      <find>ad</find>
+      <find>removerTo</find>
+      <find>removerTodos</find>
+      <find>iteradorIt</find>
+      <find>iterador</find>
+      <find>consultar</find>
+      <find>MainAvaliacao</find>
+      <find>Contac</find>
+      <find>inserirTo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>numeroElementos</replace>
+      <replace>gestaoContactos</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.000000000000574" />
+      <entry key="M2" value="1.0000013954250115" />
+      <entry key="M5" value="1.0101787489598828" />
+      <entry key="M10" value="1.2008139568608405" />
+      <entry key="M15" value="1.5446668623059905" />
+      <entry key="M30" value="2.5052626056897944" />
+      <entry key="H1" value="3.604948001593827" />
+      <entry key="H2" value="4.537120546166266" />
+      <entry key="H4" value="5.179326624923644" />
+      <entry key="D1" value="5.848060275491141" />
+      <entry key="W1" value="5.977879379941401" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.003569654102458597" />
+      <entry key="MS500" value="0.3239852413583334" />
+      <entry key="S2" value="0.7544514659919741" />
+      <entry key="S5" value="0.8934135248428037" />
+      <entry key="S10" value="0.945205546345769" />
+      <entry key="S30" value="0.9813910366528551" />
+      <entry key="S60" value="0.9906518241304652" />
+      <entry key="M2" value="0.9953152238989699" />
+      <entry key="M5" value="1.0005387714448122" />
+      <entry key="M10" value="1.0482160783363117" />
+      <entry key="M15" value="1.133938888661933" />
+      <entry key="M30" value="1.3857773034510201" />
+      <entry key="H1" value="1.7457586853836735" />
+      <entry key="H2" value="2.152971278842758" />
+      <entry key="H4" value="2.4944264213181206" />
+      <entry key="D1" value="2.90082109833758" />
+      <entry key="W1" value="2.9854086325472045" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0035717125669599867" />
+      <entry key="MS500" value="0.39688207697011263" />
+      <entry key="S2" value="1.2740610694042096" />
+      <entry key="S5" value="1.6630238181693349" />
+      <entry key="S10" value="1.8224799009957446" />
+      <entry key="S30" value="1.9386846127707438" />
+      <entry key="S60" value="1.9690656303080967" />
+      <entry key="M2" value="1.984464630924253" />
+      <entry key="M5" value="2.0063349395830694" />
+      <entry key="M10" value="2.2465724025535994" />
+      <entry key="M15" value="2.6766468278306834" />
+      <entry key="M30" value="3.889610128423934" />
+      <entry key="H1" value="5.349723033335368" />
+      <entry key="H2" value="6.689475920057477" />
+      <entry key="H4" value="7.673398926985728" />
+      <entry key="D1" value="8.748813833137465" />
+      <entry key="W1" value="8.963278119113284" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="1QyB0yrSzCpov60c6sRonOO8Z2D" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Kotlin</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainPraticaNumerosQuadradosPitagoras.executor": "Run",
+    "Application.MainTeoricaBubbleSort.executor": "Debug",
+    "Application.MainTeoricaPesquisaLinearEmSequenciaOrdenada.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/OneDrive - ULO/Aulas/2026_2027_AED/Práticas/Ficha Prática 1/Projeto Base AED/src/aed",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.varios.pesquisabinariacompleta" />
+      <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua" />
+      <recent name="pt.ipleiria.estg.dei.aed" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos.hashings" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed" />
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\modelo" />
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\modelo\contactos" />
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base Ficha Prática 1\src\aed\pesquisa\algoritmos" />
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base Ficha Prática 1\src\aed" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base Ficha Prática 1\src\aed\ordenacao\utilizacao" />
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base Ficha Prática 1\src\aed\analisecomplexidade\utilizacao" />
+      <recent name="F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base Ficha Prática 1\src\aed\analisecomplexidade\algoritmos" />
+      <recent name="C:\OD\OneDrive - IPLeiria\2022_2023_AED\Práticas\Ficha Prática 1\Projeto Base_Ficha Prática 1\src\aed\analisecomplexidade" />
+      <recent name="F:\MeoCloud\2017_2018_AED\Resolucoes\src\pt\ipleiria\estg\dei\aed\modelo\contactos\comparadores" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.estruturas" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aed.pesquisa.utilizacao" />
+      <recent name="aed.recursividade.utilizacao" />
+      <recent name="aed.recursividade.algoritmos" />
+      <recent name="pt.ipleiria.estg.dei.aed.analisecomplexidade.algoritmos" />
+      <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.ex_especial" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainPraticaNumerosQuadradosPitagoras">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPraticaNumerosQuadradosPitagoras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aed.recursividade.utilizacao.MainPraticaNumerosQuadradosPitagoras" />
+      <module name="Projeto Base AED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aed.recursividade.utilizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTeoricaBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aed.ordenacao.utilizacao.MainTeoricaBubbleSort" />
+      <module name="Projeto Base AED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aed.ordenacao.utilizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTeoricaPesquisaBinaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aed.pesquisa.utilizacao.MainTeoricaPesquisaBinaria" />
+      <module name="Projeto Base AED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aed.pesquisa.utilizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aed.pesquisa.utilizacao.MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada" />
+      <module name="Projeto Base AED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aed.pesquisa.utilizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTeoricaPesquisaLinearEmSequenciaOrdenada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aed.pesquisa.utilizacao.MainTeoricaPesquisaLinearEmSequenciaOrdenada" />
+      <module name="Projeto Base AED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aed.pesquisa.utilizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <setting name="addClasspath" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainPraticaNumerosQuadradosPitagoras" />
+        <item itemvalue="Application.MainTeoricaPesquisaLinearEmSequenciaOrdenada" />
+        <item itemvalue="Application.MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada" />
+        <item itemvalue="Application.MainTeoricaPesquisaBinaria" />
+        <item itemvalue="Application.MainTeoricaBubbleSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1511305595900" text="numeroElementos == 0" recursive="false" caseInsensitive="true" type="JAVA" history="1">
+      <constraint name="__context__" target="true" within="" contains="" />
+    </searchConfiguration>
+    <replaceConfiguration name="user defined" created="1509854346625" text="atual" recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="cor" history="1" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc99390a-078b-4ee7-88ef-01c64bb83456" name="Default" comment="" />
+      <created>1509469574018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509469574018</updated>
+      <workItem from="1509469575666" duration="401000" />
+      <workItem from="1509470010888" duration="132000" />
+      <workItem from="1509470193095" duration="42000" />
+      <workItem from="1509466675345" duration="17000" />
+      <workItem from="1509470471513" duration="2931000" />
+      <workItem from="1509577249590" duration="12000" />
+      <workItem from="1509583137791" duration="40000" />
+      <workItem from="1509583321650" duration="1456000" />
+      <workItem from="1509610254951" duration="38000" />
+      <workItem from="1509610321930" duration="149000" />
+      <workItem from="1509620646659" duration="12000" />
+      <workItem from="1509636823471" duration="6229000" />
+      <workItem from="1509661472048" duration="1126000" />
+      <workItem from="1509663888075" duration="1271000" />
+      <workItem from="1509700349350" duration="10000" />
+      <workItem from="1509702036593" duration="1194000" />
+      <workItem from="1509708797515" duration="1492000" />
+      <workItem from="1509710662833" duration="221000" />
+      <workItem from="1509710918330" duration="1179000" />
+      <workItem from="1509720305752" duration="157000" />
+      <workItem from="1509720559385" duration="388000" />
+      <workItem from="1509728694210" duration="75000" />
+      <workItem from="1509732483369" duration="1018000" />
+      <workItem from="1509744697681" duration="511000" />
+      <workItem from="1509847427901" duration="19111000" />
+      <workItem from="1509970599222" duration="10056000" />
+      <workItem from="1509998922818" duration="4247000" />
+      <workItem from="1510012456464" duration="1859000" />
+      <workItem from="1510017336733" duration="5257000" />
+      <workItem from="1510053004815" duration="417000" />
+      <workItem from="1510066320861" duration="7325000" />
+      <workItem from="1510074980423" duration="798000" />
+      <workItem from="1510096414876" duration="3779000" />
+      <workItem from="1510136116299" duration="2610000" />
+      <workItem from="1510155684880" duration="3294000" />
+      <workItem from="1510179943694" duration="1055000" />
+      <workItem from="1510191607979" duration="880000" />
+      <workItem from="1510193048689" duration="387000" />
+      <workItem from="1510226422825" duration="80000" />
+      <workItem from="1510228131525" duration="1166000" />
+      <workItem from="1510241057573" duration="7023000" />
+      <workItem from="1510270680412" duration="1968000" />
+      <workItem from="1510305377445" duration="5000" />
+      <workItem from="1510308429255" duration="395000" />
+      <workItem from="1510311218150" duration="2739000" />
+      <workItem from="1510325168020" duration="108000" />
+      <workItem from="1510325502880" duration="3909000" />
+      <workItem from="1510329958253" duration="1553000" />
+      <workItem from="1510337596175" duration="66000" />
+      <workItem from="1510338886023" duration="116000" />
+      <workItem from="1510339048807" duration="472000" />
+      <workItem from="1510356501642" duration="1157000" />
+      <workItem from="1510363418033" duration="799000" />
+      <workItem from="1510364237885" duration="2238000" />
+      <workItem from="1510452062819" duration="697000" />
+      <workItem from="1510452856230" duration="8141000" />
+      <workItem from="1510528811875" duration="6000" />
+      <workItem from="1510529968853" duration="9106000" />
+      <workItem from="1510574022716" duration="5722000" />
+      <workItem from="1510610262886" duration="10502000" />
+      <workItem from="1510671156151" duration="143000" />
+      <workItem from="1510671330441" duration="394000" />
+      <workItem from="1510671895424" duration="1067000" />
+      <workItem from="1510703461052" duration="1351000" />
+      <workItem from="1510705603000" duration="377000" />
+      <workItem from="1510706024668" duration="533000" />
+      <workItem from="1510706815252" duration="39000" />
+      <workItem from="1510745186577" duration="91000" />
+      <workItem from="1510749818780" duration="1497000" />
+      <workItem from="1510752427182" duration="67000" />
+      <workItem from="1510754292572" duration="6435000" />
+      <workItem from="1510791894853" duration="2099000" />
+      <workItem from="1510830109785" duration="82000" />
+      <workItem from="1510830648292" duration="8000" />
+      <workItem from="1510846331146" duration="187000" />
+      <workItem from="1510846575768" duration="9493000" />
+      <workItem from="1510871922400" duration="9281000" />
+      <workItem from="1510931482239" duration="4864000" />
+      <workItem from="1510938090572" duration="1788000" />
+      <workItem from="1510942936924" duration="110000" />
+      <workItem from="1510943428289" duration="142000" />
+      <workItem from="1510944765818" duration="5924000" />
+      <workItem from="1510953397872" duration="19000" />
+      <workItem from="1511048408485" duration="28000" />
+      <workItem from="1511048534776" duration="811000" />
+      <workItem from="1511052695108" duration="21000" />
+      <workItem from="1511197648374" duration="4037000" />
+      <workItem from="1511276900823" duration="258000" />
+      <workItem from="1511277279432" duration="1391000" />
+      <workItem from="1511305497437" duration="11484000" />
+      <workItem from="1511359422664" duration="4619000" />
+      <workItem from="1511394043917" duration="11000" />
+      <workItem from="1511451513824" duration="995000" />
+      <workItem from="1511466969248" duration="6708000" />
+      <workItem from="1511514718166" duration="81000" />
+      <workItem from="1511523433506" duration="4600000" />
+      <workItem from="1511535312629" duration="5982000" />
+      <workItem from="1511545197798" duration="720000" />
+      <workItem from="1511559253568" duration="17000" />
+      <workItem from="1511603656825" duration="1022000" />
+      <workItem from="1511605146515" duration="32000" />
+      <workItem from="1511732717655" duration="1499000" />
+      <workItem from="1511735952098" duration="12735000" />
+      <workItem from="1511790496322" duration="12411000" />
+      <workItem from="1511808413293" duration="5023000" />
+      <workItem from="1511821912394" duration="325000" />
+      <workItem from="1511822253089" duration="32000" />
+      <workItem from="1511822359784" duration="59000" />
+      <workItem from="1511822733148" duration="1630000" />
+      <workItem from="1511826582402" duration="669000" />
+      <workItem from="1511828693110" duration="18000" />
+      <workItem from="1511828960251" duration="953000" />
+      <workItem from="1511830905380" duration="6730000" />
+      <workItem from="1511865543513" duration="810000" />
+      <workItem from="1511866912990" duration="5695000" />
+      <workItem from="1511880782330" duration="1714000" />
+      <workItem from="1511885767452" duration="385000" />
+      <workItem from="1511912176671" duration="680000" />
+      <workItem from="1511924350584" duration="600000" />
+      <workItem from="1511954296970" duration="596000" />
+      <workItem from="1511976667144" duration="20000" />
+      <workItem from="1512040369858" duration="26000" />
+      <workItem from="1512043668606" duration="1000" />
+      <workItem from="1512054698790" duration="462000" />
+      <workItem from="1512077971778" duration="10000" />
+      <workItem from="1512146578966" duration="93000" />
+      <workItem from="1512150557649" duration="57000" />
+      <workItem from="1512382703473" duration="236000" />
+      <workItem from="1512442300375" duration="263000" />
+      <workItem from="1512482302162" duration="1589000" />
+      <workItem from="1512491532156" duration="115000" />
+      <workItem from="1512520061065" duration="14000" />
+      <workItem from="1512568749497" duration="8051000" />
+      <workItem from="1512606851427" duration="123000" />
+      <workItem from="1512607535408" duration="5511000" />
+      <workItem from="1512660906025" duration="733000" />
+      <workItem from="1512661667270" duration="6223000" />
+      <workItem from="1512861198095" duration="372000" />
+      <workItem from="1513017391231" duration="36000" />
+      <workItem from="1513017528929" duration="598000" />
+      <workItem from="1513018916160" duration="5889000" />
+      <workItem from="1513029754944" duration="722000" />
+      <workItem from="1513033097727" duration="36000" />
+      <workItem from="1513033407666" duration="43000" />
+      <workItem from="1513033456136" duration="769000" />
+      <workItem from="1513046475486" duration="34000" />
+      <workItem from="1513075640406" duration="456000" />
+      <workItem from="1513090400290" duration="184000" />
+      <workItem from="1513090904808" duration="109000" />
+      <workItem from="1513092502284" duration="1236000" />
+      <workItem from="1513123560568" duration="876000" />
+      <workItem from="1513125163666" duration="234000" />
+      <workItem from="1513209894802" duration="4000" />
+      <workItem from="1513213301159" duration="397000" />
+      <workItem from="1513243433107" duration="5000" />
+      <workItem from="1513251088229" duration="20000" />
+      <workItem from="1513264014112" duration="845000" />
+      <workItem from="1513266667542" duration="3093000" />
+      <workItem from="1513291757922" duration="632000" />
+      <workItem from="1513328785470" duration="28000" />
+      <workItem from="1513330373719" duration="26000" />
+      <workItem from="1513349301897" duration="599000" />
+      <workItem from="1513351005430" duration="3306000" />
+      <workItem from="1513354352996" duration="59000" />
+      <workItem from="1513359303801" duration="11000" />
+      <workItem from="1513361983284" duration="23000" />
+      <workItem from="1513364407479" duration="1082000" />
+      <workItem from="1513371251914" duration="362000" />
+      <workItem from="1513384205872" duration="159000" />
+      <workItem from="1513635262907" duration="338000" />
+      <workItem from="1513635688868" duration="757000" />
+      <workItem from="1513642961278" duration="90000" />
+      <workItem from="1513648941111" duration="846000" />
+      <workItem from="1513682067583" duration="13000" />
+      <workItem from="1513683194849" duration="182000" />
+      <workItem from="1513697101697" duration="2070000" />
+      <workItem from="1514059597385" duration="1459000" />
+      <workItem from="1514653971053" duration="14000" />
+      <workItem from="1514906652604" duration="9616000" />
+      <workItem from="1514936416776" duration="628000" />
+      <workItem from="1514977056021" duration="8846000" />
+      <workItem from="1514988065898" duration="2696000" />
+      <workItem from="1514992286557" duration="2886000" />
+      <workItem from="1514995447575" duration="240000" />
+      <workItem from="1514997884376" duration="3543000" />
+      <workItem from="1515017498469" duration="225000" />
+      <workItem from="1515018675171" duration="114000" />
+      <workItem from="1515018870156" duration="534000" />
+      <workItem from="1515024037671" duration="332000" />
+      <workItem from="1515032962544" duration="74000" />
+      <workItem from="1515057895505" duration="1373000" />
+      <workItem from="1515063712107" duration="11000" />
+      <workItem from="1515068280786" duration="607000" />
+      <workItem from="1515077833075" duration="23000" />
+      <workItem from="1515082264049" duration="599000" />
+      <workItem from="1515162619878" duration="2209000" />
+      <workItem from="1515173452825" duration="3573000" />
+      <workItem from="1515184617551" duration="839000" />
+      <workItem from="1515186382567" duration="11000" />
+      <workItem from="1515193366014" duration="3300000" />
+      <workItem from="1515363994665" duration="1260000" />
+      <workItem from="1515367493747" duration="279000" />
+      <workItem from="1515413261445" duration="10713000" />
+      <workItem from="1515432430250" duration="106000" />
+      <workItem from="1515433709505" duration="806000" />
+      <workItem from="1515437409838" duration="2187000" />
+      <workItem from="1515496647264" duration="104000" />
+      <workItem from="1515496908255" duration="885000" />
+      <workItem from="1515510911581" duration="1122000" />
+      <workItem from="1515513130650" duration="2000" />
+      <workItem from="1515599166268" duration="1812000" />
+      <workItem from="1515603991923" duration="35000" />
+      <workItem from="1515607920461" duration="7000" />
+      <workItem from="1515609270227" duration="61000" />
+      <workItem from="1515626150806" duration="517000" />
+      <workItem from="1515628856683" duration="19000" />
+      <workItem from="1515663274325" duration="15000" />
+      <workItem from="1515669595754" duration="141000" />
+      <workItem from="1515670290503" duration="1480000" />
+      <workItem from="1515678213845" duration="38000" />
+      <workItem from="1515685130292" duration="16000" />
+      <workItem from="1515686878331" duration="6464000" />
+      <workItem from="1515762427173" duration="552000" />
+      <workItem from="1515763916724" duration="249000" />
+      <workItem from="1516102728878" duration="36000" />
+      <workItem from="1517589068843" duration="555000" />
+      <workItem from="1517835441236" duration="46000" />
+      <workItem from="1517843543830" duration="308000" />
+      <workItem from="1517928770094" duration="69000" />
+      <workItem from="1517930500042" duration="3532000" />
+      <workItem from="1518044736643" duration="58000" />
+      <workItem from="1537193682009" duration="1870000" />
+      <workItem from="1537746850941" duration="1519000" />
+      <workItem from="1537748507602" duration="1867000" />
+      <workItem from="1537798751191" duration="311000" />
+      <workItem from="1540770248897" duration="353000" />
+      <workItem from="1540834701996" duration="636000" />
+      <workItem from="1540898865014" duration="132000" />
+      <workItem from="1541429080586" duration="1110000" />
+      <workItem from="1541435973218" duration="142000" />
+      <workItem from="1541524904786" duration="826000" />
+      <workItem from="1541525849573" duration="1218000" />
+      <workItem from="1541539455842" duration="49000" />
+      <workItem from="1542036702925" duration="91000" />
+      <workItem from="1542037849699" duration="179000" />
+      <workItem from="1542038144944" duration="16000" />
+      <workItem from="1542044081270" duration="1077000" />
+      <workItem from="1542066898662" duration="942000" />
+      <workItem from="1542123552025" duration="3386000" />
+      <workItem from="1542142406235" duration="158000" />
+      <workItem from="1542273828598" duration="10000" />
+      <workItem from="1543246609385" duration="262000" />
+      <workItem from="1543251701400" duration="43000" />
+      <workItem from="1546207917545" duration="97000" />
+      <workItem from="1546812181507" duration="2814000" />
+      <workItem from="1546874515700" duration="6237000" />
+      <workItem from="1546882322044" duration="1056000" />
+      <workItem from="1546938549384" duration="10000" />
+      <workItem from="1547132644976" duration="1075000" />
+      <workItem from="1547593215382" duration="655000" />
+      <workItem from="1547597532283" duration="77000" />
+      <workItem from="1548157565292" duration="3285000" />
+      <workItem from="1548175923298" duration="2108000" />
+      <workItem from="1548178914145" duration="217000" />
+      <workItem from="1548179218431" duration="3471000" />
+      <workItem from="1548414750743" duration="56000" />
+      <workItem from="1549537283672" duration="1277000" />
+      <workItem from="1550077033634" duration="294000" />
+      <workItem from="1550077591796" duration="147000" />
+      <workItem from="1567502057274" duration="2309000" />
+      <workItem from="1567505184740" duration="3390000" />
+      <workItem from="1567511174409" duration="2000" />
+      <workItem from="1568732739695" duration="551000" />
+      <workItem from="1568733605117" duration="1472000" />
+      <workItem from="1569947040572" duration="21000" />
+      <workItem from="1570117656698" duration="225000" />
+      <workItem from="1571035212544" duration="433000" />
+      <workItem from="1571158796713" duration="1168000" />
+      <workItem from="1571756778314" duration="191000" />
+      <workItem from="1571756991622" duration="11000" />
+      <workItem from="1571757396652" duration="53000" />
+      <workItem from="1571757470271" duration="219000" />
+      <workItem from="1571758165174" duration="1195000" />
+      <workItem from="1571759413241" duration="555000" />
+      <workItem from="1572822148558" duration="2736000" />
+      <workItem from="1630692448371" duration="262000" />
+      <workItem from="1630692905435" duration="11000" />
+      <workItem from="1630693640837" duration="674000" />
+      <workItem from="1630920042877" duration="557000" />
+      <workItem from="1630926389145" duration="59000" />
+      <workItem from="1630926491239" duration="297000" />
+      <workItem from="1630928223021" duration="669000" />
+      <workItem from="1631008306582" duration="655000" />
+      <workItem from="1661250450758" duration="2273000" />
+      <workItem from="1661253008919" duration="452000" />
+      <workItem from="1661253674295" duration="139000" />
+      <workItem from="1661259255821" duration="12487000" />
+      <workItem from="1661783343285" duration="1113000" />
+      <workItem from="1661875664432" duration="53000" />
+      <workItem from="1661939289917" duration="1627000" />
+      <workItem from="1661940994744" duration="3815000" />
+      <workItem from="1662026962200" duration="970000" />
+      <workItem from="1662046535685" duration="4024000" />
+      <workItem from="1662130576056" duration="493000" />
+      <workItem from="1662131104685" duration="6678000" />
+      <workItem from="1662364761179" duration="4003000" />
+      <workItem from="1662372813029" duration="800000" />
+      <workItem from="1662396218687" duration="114000" />
+      <workItem from="1662396379415" duration="154000" />
+      <workItem from="1662737370234" duration="40000" />
+      <workItem from="1664292427993" duration="99000" />
+      <workItem from="1664292600695" duration="11000" />
+      <workItem from="1664294809173" duration="1777000" />
+      <workItem from="1688996065235" duration="56000" />
+      <workItem from="1688996242344" duration="352000" />
+      <workItem from="1788261182148" duration="267000" />
+      <workItem from="1788261819660" duration="116000" />
+      <workItem from="1788262123820" duration="3997000" />
+      <workItem from="1788340305075" duration="6824000" />
+      <workItem from="1788356999013" duration="11000" />
+      <workItem from="1788556736228" duration="12000" />
+      <workItem from="1788556772426" duration="218000" />
+      <workItem from="1788704557336" duration="44000" />
+      <workItem from="1788706181827" duration="51000" />
+      <workItem from="1788706253624" duration="578000" />
+      <workItem from="1788770202461" duration="152000" />
+      <workItem from="1788879834454" duration="656000" />
+      <workItem from="1789642780621" duration="959000" />
+      <workItem from="1789643780046" duration="258000" />
+      <workItem from="1789644062463" duration="152000" />
+      <workItem from="1789644262021" duration="69000" />
+      <workItem from="1789644359673" duration="1248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/utils/gui/CallCenterGUI.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/utils/gui/CallCenterGUI.java</url>
+          <line>421</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/utils/gui/CallCenterGUI.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaDuplaCircularBaseLimiteOrdenada.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoLinear.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoQuadratico.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoPorHash.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="anterior == null" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaDuplaNaoOrdenada.java</url>
+          <line>271</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaDuplaNaoOrdenada.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemN.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemN2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaxima.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/ordenacao/algoritmos/BubbleSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/ordenacao/algoritmos/QuickSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/ordenacao/algoritmos/SelectionSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/pesquisa/algoritmos/PesquisaBinaria.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaNaoOrdenada.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaOrdenada.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
