@@ -5,107 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc99390a-078b-4ee7-88ef-01c64bb83456" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/Comparacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ComparacaoInteiros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ComparacaoLongs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/PontosMaisProximos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaxima.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemN2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaximaDeOrdemNLog2N.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainPraticaPontosMaisProximos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/Colecao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/ColecaoIteravel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/IteradorIteravel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/IteradorIteravelDuplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/ColecaoIteravelAssociativa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/estruturas/Associacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/estruturas/TabelaHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainPraticaGestorContactos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainPraticaGestorContactosEstendido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHash.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashOrdenada.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ColecaoIteravelLinear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/naoordenadas/ColecaoIteravelLinearNaoOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaNaoOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/naoordenadas/utilizacao/MainPraticaListaNaoOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/ColecaoIteravelLinearOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ArvoreBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaOrdenadaOrdemDistinta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainPraticaGestorContactos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaArvoreBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaArvoreBinaria.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaNaoOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaNaoOrdenada.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaOrdenada.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/ColecaoNaoIteravel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/estruturas/Fila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/estruturas/Pilha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaFila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaFila.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaPilha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/colecoes/naoiteraveis/utilizacao/MainTeoricaPilha.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/Contacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/GestorContactos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/baseGestorContactos.ds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/comparadores/ComparacaoContactosPorNumeroTelefoneDes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/contactos/comparadores/ComparacaoContactosPorUltimoNomeAscSegPorDataNascimentoDes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/pessoas/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/pessoas/comparadores/ComparacaoPessoasPorBIAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/modelo/pessoas/comparadores/ComparacaoPessoasPorNomeAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/AlgoritmoOrdenacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/algoritmos/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainPraticaInsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainPraticaOrdenacaoContactos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainPraticaOrdenacaoContactos.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaBubbleSort.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaQuickSort.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaSelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/ordenacao/utilizacao/MainTeoricaSelectionSort.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/AlgoritmoPesquisa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaNaoOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaTernariaIterativa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/algoritmos/PesquisaTernariaRecursiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainPraticaPesquisaTernaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaBinaria.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaNaoOrdenada.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/pesquisa/utilizacao/MainTeoricaPesquisaLinearEmSequenciaOrdenada.jgrasp_canvas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/Fatorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/JogoTorresHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/NumerosQuadradosPitagoras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaFatorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaJogoTorresHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/utilizacao/MainPraticaNumerosQuadradosPitagoras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/IOUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/Par.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/Vetor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/VetorDeInteiros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/VetorDePoint2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/utils/VetorDeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/JogoTorresHanoi_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/algoritmos/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/analisecomplexidade/utilizacao/MainPraticaJogoTorresHanoi_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/JogoTorresHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AEDClasses/src/aed/recursividade/algoritmos/JogoTorresHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SGI/Pratics/David/ThreeJS Projects/SheetII/PartI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SGI/Pratics/David/ThreeJS Projects/SheetII/PartI/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SGI/Pratics/David/ThreeJS Projects/SheetII/PartI/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SGI/Pratics/David/ThreeJS Projects/SheetII/PartI/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,35 +179,35 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainPraticaNumerosQuadradosPitagoras.executor": "Run",
-    "Application.MainTeoricaBubbleSort.executor": "Debug",
-    "Application.MainTeoricaPesquisaLinearEmSequenciaOrdenada.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/OneDrive - ULO/Aulas/2026_2027_AED/Práticas/Ficha Prática 1/Projeto Base AED/src/aed",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainPraticaNumerosQuadradosPitagoras.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTeoricaBubbleSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainTeoricaPesquisaLinearEmSequenciaOrdenada.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/OneDrive - ULO/Aulas/2026_2027_AED/Práticas/Ficha Prática 1/Projeto Base AED/src/aed&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.varios.pesquisabinariacompleta" />
@@ -424,17 +330,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <setting name="addClasspath" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

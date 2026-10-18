@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>execute</Name>
+    <Signature>([Ljava/awt/geom/Point2D;)Laed/utils/Par;</Signature>
+    <DeclaringType>aed.analisecomplexidade.algoritmos.PontosMaisProximos</DeclaringType>
+    <Depth>2</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>130</X>
+      <Y>120</Y>
+      <W>149</W>
+      <H>76</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.awt.geom.Point2D` primeiro</Expression>
+      <ViewerClass>jgrasp_viewers._X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>320</X>
+      <Y>120</Y>
+      <W>149</W>
+      <H>76</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.awt.geom.Point2D` segundo</Expression>
+      <ViewerClass>jgrasp_viewers._X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>900</W>
+    <H>584</H>
+  </Size>
+  <ESize>
+    <W>900</W>
+    <H>584</H>
+  </ESize>
+</Canvas>

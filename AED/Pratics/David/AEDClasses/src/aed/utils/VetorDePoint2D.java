@@ -17,7 +17,7 @@ public class VetorDePoint2D {
         Point2D[] resultValue = new Point2D[size];
         Random rnd = new Random(1);
         for (int i = 0; i < size; i++) {
-            resultValue[i] = new Point2D.Double(rnd.nextInt(10000), rnd.nextInt(10000));
+            resultValue[i] = new Ponto(rnd.nextInt(20), rnd.nextInt(20));
         }
         return resultValue;
     }

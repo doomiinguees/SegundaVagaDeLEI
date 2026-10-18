@@ -40,8 +40,10 @@ public class JogoTorresHanoi {
     }
 
     public static void display(int diskCount) {
-        System.out.println("\nHanoiTower game level " + diskCount);
-        execute(diskCount);
-        System.out.println("Moves Number: " + counter);
+        if (diskCount != 0) {
+            System.out.println("\nHanoiTower game level " + diskCount);
+            execute(diskCount);
+            System.out.println("Moves Number: " + counter);
+        }
     }
 }

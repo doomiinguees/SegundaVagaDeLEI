@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(70, 800 / 600, 0.1, 50);
 camera.position.set(2, 3, 5);
 camera.lookAt(0, 0, 0);
 
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+const renderer = new THREEf
 renderer.setSize(800, 600);
 document.body.appendChild(renderer.domElement);
 
@@ -19,6 +19,9 @@ const material = new THREE.MeshNormalMaterial();
 const cube = new THREE.Mesh(geo, material);
 cube.position.y = 0.5;
 //scene.add(cube);
+
+let raycaster = new THREE.Raycaster()
+let mouse = new THREE.Vector2()
 
 const axis = new THREE.AxesHelper();
 scene.add(axis);
@@ -46,6 +49,12 @@ let charger = new GLTFLoader()
     scene.add( gltf.scene )
   }
 )
+
+window.onclick = function(event) {
+mouse.x = (event.clientX / Largura_Canvas) * 2 - 1
+mouse.y = -(event.clientY / Altura_Canvas) * 2 + 1
+// invocar raycaster
+}
 
 const ambientLight = new THREE.AmbientLight("lightgreen")
 scene.add(ambientLight)

@@ -37,7 +37,7 @@ public class Par<T1, T2> {
 
     @Override
     public String toString() {
-        return "Primeiro: " + first + "   Segundo: " + second;
+        return "\n\tPrimeiro: " + first + "\n\tSegundo: " + second;
     }
 
 }
