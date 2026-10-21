@@ -1,0 +1,43 @@
+package aed.utils;
+
+/**
+ * @author Actual code:
+ * Carlos Urbano<carlos.urbano@ulo.pt>
+ * Catarina Reis<catarina.reis@ulo.pt>
+ * Marco Ferreira<marco.ferreira@ulo.pt>
+ * João Ramos<joao.f.ramos@ulo.pt>
+ * Sónia Luz<sonia.luz@ulo.pt>
+ * Original code: José Magno<jose.magno@ulo.pt>
+ */
+public class Pair<T1, T2> {
+    private T1 first;
+    private T2 second;
+
+    public Pair(T1 first, T2 second) {
+        this.first = first;
+        this.second = second;
+    }
+
+
+    public T1 getFirst() {
+        return first;
+    }
+
+    public void setFirst(T1 first) {
+        this.first = first;
+    }
+
+    public T2 getSecond() {
+        return second;
+    }
+
+    public void setSecond(T2 second) {
+        this.second = second;
+    }
+
+    @Override
+    public String toString() {
+        return "\n\tFirst: " + first + "\n\tSecond: " + second;
+    }
+
+}
