@@ -17,7 +17,6 @@ public enum ContactsByPhoneNumberDescendingComparator implements Comparison<Cont
 
     @Override
     public int compare(Contact c1, Contact c2) {
-        //todo Ficha Prática 3 - 2.a)
-        return 0;
+        return Long.compare(c2.getPhoneNumber(), c1.getPhoneNumber());
     }
 }

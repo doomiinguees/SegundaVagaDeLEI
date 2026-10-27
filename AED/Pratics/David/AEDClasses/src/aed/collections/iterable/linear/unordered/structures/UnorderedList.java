@@ -36,60 +36,7 @@ public class UnorderedList<T> implements UnorderedLinearIterableCollection<T> {
 
     public void transferToBeginning(UnorderedList<T> other) {
         // todo Ficha Prática 4 - 1
-        if (other == this || other == null || other.isEmpty()) {
-            return;
-        }
 
-        // Inicialização de variáveis auxiliares
-        Node otherBase = other.base;
-        Node otherEnd = otherBase.previous;
-        Node thisStart = base.nextNode;
-        Node otherStart = otherBase.nextNode;
-
-        // ligar o fim da outra ao início desta (this)
-        otherEnd.nextNode = thisStart;
-        thisStart.previous = otherEnd;
-
-        // colocar o início da outra como sendo o início desta
-        base.nextNode = otherStart;
-        otherStart.previous = base;
-
-        // atualizar base da outra
-        otherBase.previous = otherBase.nextNode = otherBase;
-
-        // atualizar número de elementos
-        elementCount += other.elementCount;
-        other.elementCount = 0;
-    }
-
-    public UnorderedList<T> removeFromEnd(int n) {
-        // todo Ficha Prática 4 - 2
-        UnorderedList<T> resultValue = new UnorderedList<>();
-        if (n <= 0 || elementCount == 0) {
-            return resultValue;
-        }
-        if (n > elementCount) {
-            n = elementCount;
-        }
-
-        // Inicialização de variáveis auxiliares
-        Node thisEnd = elementCount == n ? base : getNodeByIndex(elementCount - n - 1);
-        Node resultStart = thisEnd.nextNode;
-        Node resultEnd = base.previous;
-        SentinelNode resultBase = resultValue.base;
-
-        // atualizar esta
-        thisEnd.nextNode = base;
-        base.previous = thisEnd;
-        elementCount -= n;
-
-        // atualizar resultado
-        resultBase.nextNode = resultStart;
-        resultBase.previous = resultEnd;
-        resultEnd.nextNode = resultStart.previous = resultBase;
-        resultValue.elementCount = n;
-
-        return resultValue;
     }
 
 

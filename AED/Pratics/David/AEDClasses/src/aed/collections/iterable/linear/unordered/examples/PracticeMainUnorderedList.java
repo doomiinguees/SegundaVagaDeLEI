@@ -91,10 +91,10 @@ public class PracticeMainUnorderedList {
         System.out.println("List before removing " + n + " elements");
         System.out.println("LIST => " + list);
 
-        UnorderedList<Integer> resultValue = list.removeFromEnd(n);
+        //UnorderedList<Integer> resultValue = list.removeFromEnd(n);
         System.out.println("Lists after removing " + n + " elements");
         System.out.println("LIST => " + list);
-        System.out.println("RESULT => " + resultValue);
+        //System.out.println("RESULT => " + resultValue);
 
         System.out.println("LIST elements in reverse order");
         BidirectionalIterableIterator<Integer> customIterator = list.getIterator();

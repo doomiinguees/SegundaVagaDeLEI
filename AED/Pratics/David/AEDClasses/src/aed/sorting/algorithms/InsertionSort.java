@@ -18,6 +18,17 @@ public class InsertionSort<T> extends SortingAlgorithm<T> {
     }
 
     public void sort(T... elements) {
-        // todo Ficha Prática 3 - 1.a)
+        for (int i = 1; i < elements.length; i++) {
+            T selected = elements[i];
+            int j = i - 1;
+
+            do {
+                elements[j + 1] = elements[j];
+                j--;
+            } while (j >= 0 && comparator.compare(elements[j], selected) > 0);
+
+
+            elements[j + 1] = selected;
+        }
     }
 }

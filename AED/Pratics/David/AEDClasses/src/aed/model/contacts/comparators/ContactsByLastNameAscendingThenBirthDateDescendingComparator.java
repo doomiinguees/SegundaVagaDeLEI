@@ -17,7 +17,21 @@ public enum ContactsByLastNameAscendingThenBirthDateDescendingComparator impleme
 
     @Override
     public int compare(Contact o1, Contact o2) {
-        //todo Ficha Prática 3 - 2.a)
-        return 0;
+        int comparison = o1.getLastName().compareTo(o2.getLastName());
+        if (comparison != 0) {
+            return comparison;
+        }
+
+        comparison = Integer.compare(o2.getBirthDate().getYear(), o1.getBirthDate().getYear());
+        if (comparison != 0) {
+            return comparison;
+        }
+
+        comparison = Integer.compare(o2.getBirthDate().getMonth(), o1.getBirthDate().getMonth());
+        if (comparison != 0) {
+            return comparison;
+        }
+
+        return Integer.compare(o2.getBirthDate().getDay(), o1.getBirthDate().getDay());
     }
 }
