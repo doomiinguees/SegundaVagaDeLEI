@@ -1,0 +1,32 @@
+======== product_1: ================ 
+(4 imagens)
+Preço: 1.800€
+Marca: Pinarello
+Estado de Conservação: 5.0 pontos
+Descrição: Pinarello Prince Full Carbon ULTEGRA DI2 ASYMETRICAL Medium
+Vendedor: John_WSTes
+
+Categorias: Bicicletas
+
+
+======== product_2: ================ 
+(3 imagens)
+Preço: 10€
+Marca: BSA
+Estado de Conservação: 3.5 pontos
+Descrição: Vintage BSA Bicycle Pedals Retro 3 Speed Bike Block Pedals
+Vendedor: RedShoes44
+
+Categorias: Acessórios
+
+
+======== product_3: ================  
+(3 imagens)
+Preço: 120€
+Marca: BMX
+Estado de Conservação: 2.5 pontos
+Descrição: Vintage BMX Kids Bike Bicycle From the Eighties 80s Red Yellow For Restore 9-12Y
+Vendedor: RedShoes44
+
+Categorias: Bicicletas, Criança
+
