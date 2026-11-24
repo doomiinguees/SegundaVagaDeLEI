@@ -42,7 +42,7 @@
                     <Type>List</Type>
                     <WrapperExp>_list_.base</WrapperExp>
                     <NodeTypeNm>
-                        aed.collections.iterable.linear.ordered.structures.SortedList$Node
+                        aed.collections.iterable.linear.ordered.structures.ListaOrdenada$Node
                     </NodeTypeNm>
                     <FwdLnkExp>_node_.nextNode</FwdLnkExp>
                     <BkwdLnkExp>_node_.previous</BkwdLnkExp>
@@ -111,7 +111,7 @@
                     <Type>List</Type>
                     <WrapperExp>_list_.beforeFirst</WrapperExp>
                     <NodeTypeNm>
-                        aed.collections.iterable.linear.ordered.structures.SortedList$Node
+                        aed.collections.iterable.linear.ordered.structures.ListaOrdenada$Node
                     </NodeTypeNm>
                     <FwdLnkExp>_node_.nextNode</FwdLnkExp>
                     <BkwdLnkExp>_node_.previous</BkwdLnkExp>
@@ -164,7 +164,7 @@
                     <Type>List</Type>
                     <WrapperExp>_list_.base</WrapperExp>
                     <NodeTypeNm>
-                        aed.collections.iterable.linear.ordered.structures.SortedList$Node
+                        aed.collections.iterable.linear.ordered.structures.ListaOrdenada$Node
                     </NodeTypeNm>
                     <FwdLnkExp>_node_.nextNode</FwdLnkExp>
                     <BkwdLnkExp>_node_.previous</BkwdLnkExp>

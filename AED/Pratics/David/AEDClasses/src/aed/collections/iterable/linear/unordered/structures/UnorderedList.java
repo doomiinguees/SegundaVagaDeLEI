@@ -7,15 +7,6 @@ import aed.collections.iterable.linear.unordered.UnorderedLinearIterableCollecti
 import java.io.Serializable;
 import java.util.NoSuchElementException;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class UnorderedList<T> implements UnorderedLinearIterableCollection<T> {
     private static final long serialVersionUID = 1L;
 
@@ -35,10 +26,49 @@ public class UnorderedList<T> implements UnorderedLinearIterableCollection<T> {
     }
 
     public void transferToBeginning(UnorderedList<T> other) {
-        // todo Ficha Prática 4 - 1
+        if (other == this || other.elementCount == 0) {
+            return;
+        }
 
+        other.base.previous.nextNode = base.nextNode;
+        base.nextNode.previous = other.base.previous;
+        base.nextNode = other.base.nextNode;
+        other.base.nextNode.previous = base;
+
+        elementCount += other.elementCount;
+
+        other.base.nextNode = other.base;
+        other.base.previous = other.base;
+        other.elementCount = 0;
     }
 
+
+    public UnorderedList<T> removeFromEnd(int n) {
+        if (n < 0) {
+            throw new IllegalArgumentException("n must be Positive");
+        }
+
+        UnorderedList<T> result = new UnorderedList<>();
+        if (n == 0 || elementCount == 0) {
+            return result;
+        }
+
+        result.base.nextNode = base;
+        while (result.elementCount < n && result.elementCount < elementCount) {
+            result.base.nextNode = result.base.nextNode.previous;
+            result.elementCount++;
+        }
+
+        result.base.previous = base.previous;
+        base.previous = result.base.nextNode.previous;
+        base.previous.nextNode = base;
+
+        result.base.nextNode.previous = result.base;
+        result.base.previous.nextNode = result.base;
+
+        elementCount -= result.elementCount;
+        return result;
+    }
 
     protected Node getNode(T item) {
         Node currentNode = base.nextNode;

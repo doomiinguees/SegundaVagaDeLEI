@@ -9,18 +9,10 @@ import aed.utils.IntegerArray;
 
 import java.util.Random;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class PracticeMainTernarySearch {
 
     public static void main(String[] args) {
+        /*
         Random random = new Random();
 
         SearchAlgorithm<Integer> recursiveTernarySearch = new RecursiveTernarySearch<>(IntegerComparator.COMPARATOR);
@@ -33,6 +25,16 @@ public class PracticeMainTernarySearch {
 
         int element = random.nextInt(21) - 10;
         recursiveTernarySearch.display(20, element, elements);
-        iterativeTernarySearch.display(20, element, elements);
+        //iterativeTernarySearch.display(20, element, elements);
+
+        */
+
+        Integer[] elements = {-12, -8, -5, 0, 3, 6, 9, 12, 15, 22};
+        int element = 0;
+
+        SearchAlgorithm<Integer> recursiveTernarySearch =
+                new RecursiveTernarySearch<>(IntegerComparator.COMPARATOR);
+        recursiveTernarySearch.display(20, element, elements);
+        return;
     }
 }

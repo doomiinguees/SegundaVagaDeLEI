@@ -8,28 +8,19 @@ import aed.collections.iterable.linear.ordered.OrderedLinearIterableCollection;
 import java.io.Serializable;
 import java.util.NoSuchElementException;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
-public class SortedList<T> implements OrderedLinearIterableCollection<T> {
+public class ListaOrdenada<T> implements OrderedLinearIterableCollection<T> {
     private static final long serialVersionUID = 1L;
 
     protected SentinelNode base;
     protected Comparison<T> comparator;
     protected int elementCount;
 
-    public SortedList(Comparison<T> cp) {
+    public ListaOrdenada(Comparison<T> cp) {
         comparator = cp;
         new SentinelNode();
     }
 
-    public SortedList(Comparison<T> cp, OrderedLinearIterableCollection<T> collection) {
+    public ListaOrdenada(Comparison<T> cp, OrderedLinearIterableCollection<T> collection) {
         this(cp);
 
         if (cp.equals(collection.getComparator())) {
@@ -43,7 +34,7 @@ public class SortedList<T> implements OrderedLinearIterableCollection<T> {
         }
     }
 
-    public SortedList(Comparison<T> cp, IterableCollection<T> collection) {
+    public ListaOrdenada(Comparison<T> cp, IterableCollection<T> collection) {
         this(cp);
 
         insertAll(collection);

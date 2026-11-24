@@ -5,15 +5,6 @@ import aed.utils.Pair;
 import java.awt.geom.Point2D;
 import java.util.Arrays;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class ClosestPoints {
     public static Pair<Point2D, Point2D> execute(Point2D... points) {
         if (points == null || points.length < 2) {

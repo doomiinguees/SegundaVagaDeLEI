@@ -1,27 +1,18 @@
 package aed.collections.iterable.linear.ordered.examples;
 
 import aed.collections.iterable.BidirectionalIterableIterator;
-import aed.collections.iterable.linear.ordered.structures.SortedList;
+import aed.collections.iterable.linear.ordered.structures.ListaOrdenada;
 import aed.model.people.Person;
 import aed.model.people.comparators.PeopleByIdNumberAscendingComparator;
 import aed.model.people.comparators.PeopleByNameAscendingComparator;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class TheoryMainSortedList {
 
     public static void main(String[] args) {
         Person p;
-        SortedList<Person> peopleByIdNumber = new SortedList<>(
+        ListaOrdenada<Person> peopleByIdNumber = new ListaOrdenada<>(
                 PeopleByIdNumberAscendingComparator.COMPARATOR);
-        SortedList<Person> peopleByName = new SortedList<>(
+        ListaOrdenada<Person> peopleByName = new ListaOrdenada<>(
                 PeopleByNameAscendingComparator.COMPARATOR);
 
         p = new Person(3, "B");

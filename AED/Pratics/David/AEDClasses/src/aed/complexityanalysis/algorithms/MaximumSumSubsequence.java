@@ -5,15 +5,6 @@ import aed.utils.IntegerArray;
 
 import java.util.Arrays;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public abstract class MaximumSumSubsequence {
 
     public abstract long execute(Pair<Integer, Integer> startAndEndIndices, int... elements);

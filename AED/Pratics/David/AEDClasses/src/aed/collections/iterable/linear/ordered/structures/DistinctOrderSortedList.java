@@ -4,7 +4,7 @@ import aed.Comparison;
 import aed.collections.iterable.IterableCollection;
 import aed.collections.iterable.linear.ordered.OrderedLinearIterableCollection;
 
-public class DistinctOrderSortedList<T> extends SortedList<T> {
+public class DistinctOrderSortedList<T> extends ListaOrdenada<T> {
     private static final long serialVersionUID = 1L;
 
     public DistinctOrderSortedList(Comparison<T> cp) {
@@ -30,7 +30,6 @@ public class DistinctOrderSortedList<T> extends SortedList<T> {
         }
 
         new ElementNode(item, node);
-        elementCount++;
     }
 
     public T getDistinct(T item) {

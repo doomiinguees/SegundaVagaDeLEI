@@ -5,15 +5,6 @@ import aed.collections.iterable.associative.structures.Association;
 import aed.collections.iterable.associative.structures.HashTable;
 import aed.model.people.Person;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class TheoryMainHashTable {
 
     public static void main(String[] args) {

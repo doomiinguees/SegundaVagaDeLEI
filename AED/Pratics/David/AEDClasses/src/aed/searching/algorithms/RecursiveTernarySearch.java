@@ -2,15 +2,6 @@ package aed.searching.algorithms;
 
 import aed.Comparison;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class RecursiveTernarySearch<T> extends SearchAlgorithm<T> {
     public RecursiveTernarySearch(Comparison<T> comparator) {
         super(comparator);
@@ -18,7 +9,33 @@ public class RecursiveTernarySearch<T> extends SearchAlgorithm<T> {
 
     @Override
     public int search(T element, T... elements) {
-        // todo Ficha Prática 3 - 3.a)
-        return NOT_FOUND;
+        return searchRecursive(element, 0, elements.length - 1, elements);
+    }
+
+    private int searchRecursive(T element, int leftBound, int rightBound, T... elements) {
+        if (leftBound > rightBound) {
+            return NOT_FOUND;
+        }
+
+        int third = (rightBound - leftBound) / 3;
+        int firstMiddle = leftBound + third;
+
+        int comparison = comparator.compare(element, elements[firstMiddle]);
+        if (comparison < 0) {
+            return searchRecursive(element, leftBound, firstMiddle - 1, elements);
+        }
+        if (comparison > 0) {
+            int secondMiddle = rightBound - third;
+
+            comparison = comparator.compare(element, elements[secondMiddle]);
+            if (comparison < 0) {
+                return searchRecursive(element, firstMiddle + 1, secondMiddle - 1, elements);
+            }
+            if (comparison > 0) {
+                return searchRecursive(element, secondMiddle + 1, rightBound, elements);
+            }
+            return secondMiddle;
+        }
+        return firstMiddle;
     }
 }

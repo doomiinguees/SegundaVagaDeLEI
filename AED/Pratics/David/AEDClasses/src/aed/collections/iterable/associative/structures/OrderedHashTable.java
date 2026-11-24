@@ -7,15 +7,6 @@ import aed.collections.iterable.associative.AssociativeIterableCollection;
 import java.io.Serializable;
 import java.util.NoSuchElementException;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class OrderedHashTable<C, V> implements AssociativeIterableCollection<C, V> {
     private static final long serialVersionUID = 1L;
 
